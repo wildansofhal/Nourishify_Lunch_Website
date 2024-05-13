@@ -8,7 +8,7 @@ function Home(){
                     <ul>
                         <li><a href="">About</a></li>
                         <li><a href="">Food Galery</a></li>
-                        <li><a href="">Information</a></li>
+                        <li><a href="">Information d</a></li>
                     </ul>
                     </header>
                 <main>
