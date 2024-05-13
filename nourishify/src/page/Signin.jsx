@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Signin(){
     return(
         <>
@@ -10,8 +12,8 @@ function Signin(){
                 <div>
                     <h2>Sign In</h2>
                     <input type="email" placeholder="Email Address" />
-                    <input type="password" placeholder="Password" />
-                    <button>Sign In</button>
+                    <input type="password" placeholder="Password" /> 
+                    <Link to={"/dashboard"} className="btn_signin">Sign In</Link>
                     <p>Or</p>
                     <button>Sign In With Google</button>
                 </div>

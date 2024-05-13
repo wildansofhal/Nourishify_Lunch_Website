@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
+ul{
+  list-style: none;
+}
+
 .home>header{
   padding: 35px 4rem;
 
@@ -64,6 +68,7 @@
 
 .home>main>.title>.btn_get-started{
   padding: 0.5rem 4rem;
+  text-align: center;
   font-family: "Mansalva", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -118,6 +123,29 @@
   font-style: bold;
 }
 
+.signin>main>div>input{
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #9BCF53;
+  border: none;
+  color: black;
+  width: 100%;
+  text-decoration: none;
+}
+
+.signin>main>div>.btn_signin,
+.editprofile>main>div>.btn_save{
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #9BCF53;
+  border: none;
+  color: black;
+  width: 100%;
+  text-decoration: none;
+}
+
+
 .signin>main>div>input,
 .signin>main>div>button{
   padding: 0.8rem;
@@ -126,4 +154,141 @@
   border: none;
   color: black;
   width: 100%;
+}
+
+/* Edir Profile */
+.editprofile{
+  background-color: #9BCF53;
+  width: 100vw;
+  height: 100vh;
+}
+.editprofile>header{
+  padding: 30px 3rem;
+}
+
+.editprofile>header>img{
+  width: 5%;
+}
+
+.editprofile>main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.editprofile>main>img{
+  width: 40%;  
+}
+
+.editprofile>main>div{
+  width: 30%;
+  background-color: #CBFFA9;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+}
+
+.editprofile>main>div>h2{
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.editprofile>main>div>input,
+.editprofile>main>div>button{
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #9BCF53;
+  border: none;
+  color: black;
+  width: 100%;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard>aside{
+  background-color: #CBFFA9;
+  padding: 3rem;
+  width: 30%;
+}
+
+.dashboard>aside>ul>li{
+  padding:0.5rem;
+}
+
+.dashboard>aside>h2{
+  margin: 2rem 0;
+}
+
+.dashboard>div{
+  background-color: #9BCF53;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard>div>header>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.dashboard>div>header>ul>li{
+  background-color: white;
+  margin: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 24px;
+}
+
+.dashboard>div>header>ul>.btn_editprofile{
+  background-color: white;
+  margin: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 24px;
+  text-decoration: none;
+}
+
+.dashboard>div>main{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 100%;
+  margin: 4rem;
+  background-color: #CBFFA9;
+  border-radius: 48px;
+  padding: 5rem;
+}
+
+.dashboard>div>main>.daftar_menu{
+  width: 50%;
+}
+
+.dashboard>div>main>.stok{
+  width: 50%;
+}
+
+.dashboard>div>main>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard>div>main>div>select{
+  background-color: #9BCF53;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 24px;
+}
+
+.dashboard>div>main>.daftar_menu>ol{
+  padding: 2rem;
 }
